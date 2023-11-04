@@ -6,28 +6,42 @@ body{
     background: #1f2937;
 }
 
-.header .links{
+.header{
+    display: flex;
+    margin: 0; 
+    padding: 0 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    padding: 40px;
     display: flex;
     gap: 20px;
-    padding: 0 100px;
-    justify-content: space-around;
     font-size: 18px;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
 }
 
 .logo{
     font-size: 24px;
     font-weight: 900;
-    color:#f9faf8
+    color:#f9faf8;
+    width: 100%;
 }
 
 a{
     text-decoration: none;
     margin-right: 10px;
     color: #e5e7eb;
+    
 }
 
 ul{
     list-style-type: none;
+    margin: auto;
+    width: 100%;
 }
 
 .info{
