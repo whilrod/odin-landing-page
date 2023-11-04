@@ -95,6 +95,8 @@ ul{
 .cards{
     background: #f9faf8;
     height: auto;
+    padding: 80px 0;
+    
 }
 
 .title-cards{
@@ -102,13 +104,15 @@ ul{
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-    padding: 60px;
+    margin: 40px;
 }
 .body-cards{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap:20px
+    
 }
 
 .card{
@@ -117,7 +121,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
 }
 
